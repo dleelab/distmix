@@ -1,3 +1,5 @@
+####Last Modified: 07/13/2015
+
 ## What's New?
 **[04/03/2015]** Thank you so much for your interest in DISTMIX. 1000 Genomes Phase 3 reference panel for DISTMIX will be available soon.
 
@@ -13,7 +15,7 @@
 
 ## Citing DISTMIX 
 
-**_DISTMIX: Direct imputation of summary statistics for unmeasured SNPs from mixed ethnicity cohorts_** Donghyung Lee; Tim B. Bigdeli; Vernell S. Williamson; Vladimir I. Vladimirov; Brien P. Riley; Ayman H. Fanous; Silviu-Alin Bacanu; *Bioinformatics* (2015) doi:10.1093/bioinformatics/btv348.[Abstract](http://bioinformatics.oxfordjournals.org/content/early/2015/06/27/bioinformatics.btv348.abstract),[PDF](http://bioinformatics.oxfordjournals.org/content/early/2015/06/27/bioinformatics.btv348.full.pdf+html) 
+**_DISTMIX: Direct imputation of summary statistics for unmeasured SNPs from mixed ethnicity cohorts_** Donghyung Lee; Tim B. Bigdeli; Vernell S. Williamson; Vladimir I. Vladimirov; Brien P. Riley; Ayman H. Fanous; Silviu-Alin Bacanu; *Bioinformatics* (2015) [doi:10.1093/bioinformatics/btv348](http://bioinformatics.oxfordjournals.org/content/early/2015/06/27/bioinformatics.btv348.full).
 
 ##Acknowledgement
 **This work is supported by the National Institutes of Health with grants R25DA26119, R21MH100560, R21AA022717 and P50AA022537.**
@@ -30,7 +32,7 @@ The current release (Version 0.2.0) of DISTMIX is for a Linux user. The pre-comp
 | [DISTMIX for a Linux user](https://drive.google.com/file/d/0B_9H56XID17ScTc3ZDFyT0NNNVU/view?usp=sharing) | v0.2.0 | 02/05/2015 |
 
 ##Download Reference Panels
-| **Direct download link** | **Number of Samples** | **Number of populations** | **NCBI build** | **Release Date** | **Note** |
+|**Direct download link**|**Number of Samples**|**Number of populations**|**NCBI build**|**Release Date**|**Note**|
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | [1000 Genomes Phase1 Release3](https://drive.google.com/file/d/0B_9H56XID17SLWJaWjlYekxkVkU/view?usp=sharing) | 1092 | 14 | build 37 (hg19) | Nov. 23 2010 | Includes chr1-chr22 |
 
@@ -171,4 +173,4 @@ Here, we didn't set the size of the prediction window and wing by using options 
 >> ./distmix -c 22q sample.input.chr22.txt -o sample.output.chr22q -r /path/to/reference/1kg.ref.gz -i /path/to/reference/1kg.ref.index.gz -w sample.pop.wgt.txt
 ```
 
-###Last Modified: 02/06/2015
+
