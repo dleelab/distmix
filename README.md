@@ -1,7 +1,7 @@
 ####Last Modified: 07/13/2015
 
 ## What's New?
-**[04/03/2015]** Thank you so much for your interest in DISTMIX. 1000 Genomes Phase 3 reference panel for DISTMIX will be available soon.
+**[04/03/2015]** 1000 Genomes Phase 3 reference panel for DISTMIX will be available soon.
 
 **[02/06/2015]** a pre-compiled executable for DISTMIX (v0.2.0) built under Linux is available now! In this version, we added new option (--populationWeight) that enable users to pre-specify population weights based on their prior information on study cohorts. This option will be quite useful when the input data (GWAS summary statistics data) lacks allele frequency information. See DISTMIX input file second option.
 
