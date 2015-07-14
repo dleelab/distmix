@@ -13,7 +13,7 @@
 
 ## Citing DISTMIX 
 
-**_DISTMIX: Direct imputation of summary statistics for unmeasured SNPs from mixed ethnicity cohorts_** Donghyung Lee; Tim B. Bigdeli; Vernell S. Williamson; Vladimir I. Vladimirov; Brien P. Riley; Ayman H. Fanous; Silviu-Alin Bacanu; *Bioinformatics* (2015) [doi:10.1093/bioinformatics/btv348](http://bioinformatics.oxfordjournals.org/content/early/2015/06/27/bioinformatics.btv348.full).
+**_DISTMIX: Direct imputation of summary statistics for unmeasured SNPs from mixed ethnicity cohorts_**, Donghyung Lee; Tim B. Bigdeli; Vernell S. Williamson; Vladimir I. Vladimirov; Brien P. Riley; Ayman H. Fanous; Silviu-Alin Bacanu; *Bioinformatics* (2015) [doi:10.1093/bioinformatics/btv348](http://bioinformatics.oxfordjournals.org/content/early/2015/06/27/bioinformatics.btv348.full).
 
 ##Acknowledgement
 **This work is supported by the National Institutes of Health with grants R25DA26119, R21MH100560, R21AA022717 and P50AA022537.**
@@ -25,33 +25,33 @@
 ##Download DISTMIX
 The current release (Version 0.2.0) of DISTMIX is for a Linux user. The pre-compiled executables for other operating systems (e.g., Windows, MacOS) will be available soon. The latest source codes of DISTMIX are available upon request. 
 
-| **Direct download link** | **Version** | **Release Date** |
-| :--- | :--- | :--- |
-| [DISTMIX for a Linux user](https://drive.google.com/file/d/0B_9H56XID17ScTc3ZDFyT0NNNVU/view?usp=sharing) | v0.2.0 | 02/05/2015 |
+|**Direct download link**|**Version**|**Release Date**|
+|:---|:---|:---|
+|[DISTMIX for a Linux user](https://drive.google.com/file/d/0B_9H56XID17ScTc3ZDFyT0NNNVU/view?usp=sharing)|v0.2.0|02/05/2015|
 
 ##Download Reference Panels
 |**Direct download link**|**Number of Samples**|**Number of populations**|**NCBI build**|**Release Date**|**Note**|
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| [1000 Genomes Phase1 Release3](https://drive.google.com/file/d/0B_9H56XID17SLWJaWjlYekxkVkU/view?usp=sharing) | 1092 | 14 | build 37 (hg19) | Nov. 23 2010 | Includes chr1-chr22 |
+|:---|:---|:---|:---|:---|:---|
+|[1000 Genomes Phase1 Release3](https://drive.google.com/file/d/0B_9H56XID17SLWJaWjlYekxkVkU/view?usp=sharing)|1092|14|build 37 (hg19)|Nov. 23 2010|Includes chr1-chr22|
 
 Here are the 1000 Genome population abbreviations used by DISTMIX. AFR is an abbreviation for African; AMR for admixed American; ASN for East Asian; EUR for European. 
 
-| **Population Abbreviation** | **Number of Subjects** | **Super Population** | **Population Description** |
-| :--- | :--- | :--- | :--- |
-| ASW | 61 | AFR | African Ancestry in Southwest US |
-| CEU | 85 | EUR | Utah residents (CEPH) with Northern and Western European ancestry|
-| CHB | 97 | ASN | Han Chinese in Beijing, China |
-| CHS | 100 | ASN | Southern Han Chinese |
-| CLM | 60 | AMR | Colombian in Medellin, Colombia |
-| FIN | 93 | EUR | Finnish in Finland |
-| GBR | 89 | EUR | British in England and Scotlant |
-| IBS | 14 | EUR | Iberian populations in Spain |
-| JPT | 89 | ASN | Japanese in Tokyo, Japan |
-| LWK | 97 | AFR | Luhya in Wenbuye, Kenya |
-| MXL | 66 | AMR | Mexican Ancestry from Los Angeles, USA |
-| PUR | 55 | AMR | Puerto Rican in Puerto Rico |
-| TSI | 98 | EUR | Toscani in Italia |
-| YRI | 88 | AFR | Yoruba in Ibadan, Nigeria |
+|**Population Abbreviation**|**Number of Subjects**|**Super Population**|**Population Description**|
+|:---|:---|:---|:---|
+|ASW|61|AFR|African Ancestry in Southwest US|
+|CEU|85|EUR|Utah residents (CEPH) with Northern and Western European ancestry|
+|CHB|97|ASN|Han Chinese in Beijing, China|
+|CHS|100|ASN|Southern Han Chinese|
+|CLM|60|AMR|Colombian in Medellin, Colombia|
+|FIN|93|EUR|Finnish in Finland|
+|GBR|89|EUR|British in England and Scotlant|
+|IBS|14|EUR|Iberian populations in Spain|
+|JPT|89|ASN|Japanese in Tokyo, Japan|
+|LWK|97|AFR|Luhya in Wenbuye, Kenya|
+|MXL|66|AMR|Mexican Ancestry from Los Angeles, USA|
+|PUR|55|AMR|Puerto Rican in Puerto Rico|
+|TSI|98|EUR|Toscani in Italia|
+|YRI|88|AFR|Yoruba in Ibadan, Nigeria|
 
 ##DISTMIX Input File Format
 
@@ -133,9 +133,9 @@ rs28599927  1    62271  G   A   .        .          -0.0314447   1           0.9
 
 ##Options
 
-| **Option** | **Short Flag** | **Parameter** | **Default** | **Description** |
-| :--- | :--- | :--- | :--- | :--- |
-|--version|-v||none||none||Prints version information.|
+|**Option**|**Short Flag**|**Parameter**|**Default**|**Description**|
+|:---|:---|:---|:---|:---|
+|--version|-v|none|none|Prints version information.|
 |--help|-h|none|none|Outputs a full description of all DISTMIX options.|
 |--reference|-r|filename|none|The filename of the reference panel data.|
 |--referenceIndex|-i|filename|none|The filename of the reference panel index data.|
@@ -170,5 +170,3 @@ Here, we didn't set the size of the prediction window and wing by using options 
 ```shell
 >> ./distmix -c 22q sample.input.chr22.txt -o sample.output.chr22q -r /path/to/reference/1kg.ref.gz -i /path/to/reference/1kg.ref.index.gz -w sample.pop.wgt.txt
 ```
-
-
