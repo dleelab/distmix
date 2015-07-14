@@ -1,5 +1,3 @@
-####Last Modified: 07/13/2015
-
 ## What's New?
 **[04/03/2015]** 1000 Genomes Phase 3 reference panel for DISTMIX will be available soon.
 
