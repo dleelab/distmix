@@ -9,7 +9,7 @@
 
 ## Introduction
 
-"DISTMIX is a very fast and novel software program for Directly Imputing summary STatistics (two-tailed Z-scores) for unmeasured SNPs from MIXed ethnicity cohorts using measured SNP summary data (including cohort allele frequencies) from the cohorts and external reference populations such as 1000 Genomes data. DISTMIX inherits the main advantage of [DIST](https://code.google.com/p/dist/), i.e. speed, not requiring subject level genetic data access and applicability to pedigree data, while gaining the capability of accurate imputation of summary statistics from multi-ethnic GWAS/meta-analyses. Compared to commonly used genotype imputation methods, DISTMIX offers quite comparable imputation performance while dramatically reducing computation time and resource usage. DISTMIX software is written in C++ with open-source numerical libraries."
+"DISTMIX is a very fast and novel software program for Directly Imputing summary STatistics (two-tailed Z-scores) for unmeasured SNPs from MIXed ethnicity cohorts using measured SNP summary data (including cohort allele frequencies) from the cohorts and external reference populations such as 1000 Genomes data. DISTMIX inherits the main advantage of [DIST](http://dleelab.github.io/dist/), i.e. speed, not requiring subject level genetic data access and applicability to pedigree data, while gaining the capability of accurate imputation of summary statistics from multi-ethnic GWAS/meta-analyses. Compared to commonly used genotype imputation methods, DISTMIX offers quite comparable imputation performance while dramatically reducing computation time and resource usage. DISTMIX software is written in C++ with open-source numerical libraries."
 
 ## Citing DISTMIX 
 
