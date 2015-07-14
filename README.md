@@ -23,7 +23,7 @@
 <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/72/US-NIH-NIAAA-Logo.svg/440px-US-NIH-NIAAA-Logo.svg.png" height="100px">
 
 ##Download DISTMIX
-The current release (Version 0.2.0) of DISTMIX is for a Linux user. The pre-compiled executables for other operating systems (e.g., Windows, MacOS) will be available soon. The latest source codes of DISTMIX are available upon request. 
+The current release (Version 0.2.0) of DISTMIX is for a Linux user. The pre-compiled executables for other operating systems (e.g., Windows, MacOS) will be available soon. The latest source codes of DISTMIX are available upon request (dustorm_at_gmail_dot_com). 
 
 |**Direct download link**|**Version**|**Release Date**|
 |:---|:---|:---|
